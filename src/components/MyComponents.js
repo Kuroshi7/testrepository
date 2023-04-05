@@ -20,7 +20,7 @@ const MyComponent = () => {
           alt="Path of Exile exile running montage"
           style={{  maxHeight: "50vh", maxWidth: "21vw" }}
           onMouseLeave={handleMouseLeave}
-          autoplay
+          autoPlay
         />
       ) : (
         <img

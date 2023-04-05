@@ -30,9 +30,24 @@ body {
   background-position: center center; /* center the background image */
   background-size: cover; /* scale the background image to cover the entire page */
   background-attachment: fixed;
+  
+  @media only screen and (max-width: 768px) {
+  body {
+    background-size: contain;
+    background-position: top;
+  }
 }
-h1,h2, p, aside {
+}
+h1,h2,h, p, aside {
   color: white;
+}
+h{
+  
+  text-decoration: underline;
+  color: rgb(102, 255, 0);
+  max-width: 1rem; /* fallback value for older browsers */
+  max-width: 10vw;
+  
 }
 h2 {
   max-width: 100rem; /* fallback value for older browsers */
@@ -40,7 +55,7 @@ h2 {
   margin: 0 auto; /* center the text horizontally */
   
 }
-nav {
+nav a{
   color: rgb(255, 255, 255);
   text-decoration: none;
   margin-right: 1rem;

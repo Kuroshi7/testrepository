@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import MyCOmponents from './components/MyComponents';
+import NameTemplate from './components/NameTemplate';
+import MyEvent from './components/MyEvent';
 
 function App() {
   return (
@@ -9,20 +11,22 @@ function App() {
         <p>Lorem ipsum dolor sit amet, consectetur adispiscing elit. Nullam convallis
         risus id nunc vehicula, eu consequat velit ultricies. Fusce bibendum, sapien vitae aliquam
         </p>
-      
+      <MyEvent />
       <aside>
         <h2>aside_header_no_spaces after_space</h2>
         <nav> 
-      <ul>
-        <li><a href="/builds">Builds</a></li>
-        <li><a href="/items">Items</a></li>
-        <li><a href="/forum">Forum</a></li>
-        <li><a href="/contact">Contact</a></li>
-      </ul>
-    </nav></aside>
-    
+          <ul>
+            <li><a href="/builds">Builds</a></li>
+            <li><a href="/items">Items</a></li>
+            <li><a href="/forum">Forum</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <NameTemplate />
       <MyCOmponents />
-    </div>
+
+     </div>
   );
 }
 
