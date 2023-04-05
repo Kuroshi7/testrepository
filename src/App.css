@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  
+  }
+
+html {
+  font-size: 16px;
+}
+
+aside {
+  width: 1vw;
+  padding-left: 1rem;
+  margin-left: 1rem;
+  
+}
+aside > p {
+    margin: 1rem;
+  
+}
+p {
+  max-width: 50rem; /* fallback value for older browsers */
+  max-width: 80vw; /* responsive value based on viewport width */
+  margin: 0 auto; /* center the text horizontally */
+  overflow-wrap: break-word;
+}
+body {
+  background-color: #f0f0f0; /* set the background color */
+  background-image: url('../public/images/AzO81pq\ \(1\).jpg'); /* set the background image */
+  background-repeat: no-repeat; /* prevent the background image from repeating */
+  background-position: center center; /* center the background image */
+  background-size: cover; /* scale the background image to cover the entire page */
+  background-attachment: fixed;
+}
+h1,h2, p, aside {
+  color: white;
+}
+h2 {
+  max-width: 100rem; /* fallback value for older browsers */
+  max-width: 80vw; /* responsive value based on viewport width */
+  margin: 0 auto; /* center the text horizontally */
+  
+}
+nav {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+nav a:hover {
+  color: red;
+  text-decoration: underline;
+}
+nav :visited {
+  color: white;
+}
